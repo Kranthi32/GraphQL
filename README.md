@@ -9,3 +9,18 @@
 -- npm run devStart
 
 Type this URL in browser to satrt GraphQL server http://localhost:5000/graphql
+
+
+## input for Testing
+
+query {
+  books {
+    id
+    name
+    author {
+      id
+      name
+    }
+  }
+}
+
